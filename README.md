@@ -25,7 +25,17 @@ We provide Python implementation for training the model, its evaluation and gene
 
 - [x] Train model
 ```bash
-python retina.py --k_folds 5 --train_data_path <path> --train_labels <path>
+python retina_train.py --k_folds 5 --train_data_path <path> --train_labels <path>
+```
+
+- [x] Test model
+```bash
+python test_grad.py --test_data_path <path> --test_labels <path> --model_file <path> --gradcam False
+```
+
+- [x] Save GradCAM images
+```bash
+python test_grad.py --test_data_path <path> --test_labels <path> --model_file <path> --target_layer 'layer4.1.conv1' --save_img_path <path> --gradcam True
 ```
 
 ## Results
