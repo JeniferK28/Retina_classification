@@ -23,8 +23,10 @@ We provide Python implementation for training the model, its evaluation and gene
 * Grad_cam.py: Calculate backpropagation and generate gradcam images
 * plt_cm.py: Plot confusion matrix
 
+- [x] Train model
+```bash
 python retina.py --k_folds 5 --train_data_path <path> --train_labels <path>
-
+```
 
 ## Results
 * Training and validation performances for pre-trained RESNET, Vanilla RESNET and pre-trained RESNET with augmentation
