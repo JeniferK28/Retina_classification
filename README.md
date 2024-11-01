@@ -13,5 +13,5 @@ Python 3
 * torchvision
 * itertools 
 ## Results
-Training and validation performances 
+* Training and validation performances 
 <img src="retina_train.JPG" width=50% height=50%>
