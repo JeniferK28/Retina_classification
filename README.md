@@ -11,7 +11,19 @@ Python 3
 * matplotlib 
 * natsort 
 * torchvision
-* itertools 
+* itertools
+
+## Files
+We provide Python implementation for training the model, its evaluation and generate gradcam images.
+* data_loader: Prepare data to input to the model
+* retina_train.py: Train models
+* train_pred.py: Train and prediction functions
+* test_grad.py: Test data / save gradcam images
+* utils.py: Save gradcam and overlap to input images
+* Grad_cam.py: Calculate backpropagation and generate gradcam images
+* plt_cm.py: Plot confusion matrix
+
+
 ## Results
 * Training and validation performances for pre-trained RESNET, Vanilla RESNET and pre-trained RESNET with augmentation
 <img src="retina_train.JPG" width=80% height=80%>
