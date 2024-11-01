@@ -14,8 +14,8 @@ Python 3
 * itertools 
 ## Results
 * Training and validation performances for pre-trained RESNET, Vanilla RESNET and pre-trained RESNET with augmentation
-<img src="retina_train.JPG" width=50% height=50%>
-<img src="aug_retina.JPG" width=50% height=50%>
+<img src="retina_train.JPG" width=80% height=80%>
+<img src="aug_retina.JPG" width=80% height=80%>
 
 * Confusion matrix for pre-trained RESNET with augmentation
-<img src="cm.jpeg" width=50% height=50%>
+<img src="cm.jpeg" width=20% height=20%>
