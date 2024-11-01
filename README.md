@@ -14,4 +14,4 @@ Python 3
 * itertools 
 ## Results
 Training and validation performances 
-<img src="retina_train.jpg" width=50% height=50%>
+<img src="retina_train.JPG" width=50% height=50%>
