@@ -11,6 +11,7 @@ Python 3
 * matplotlib 
 * natsort 
 * torchvision
+* tensorboard
 * itertools
 
 ## Files
