@@ -12,3 +12,6 @@ Python 3
 * natsort 
 * torchvision
 * itertools 
+## Results
+Training and validation performances 
+<img src="retina_train.jpg" width=50% height=50%>
