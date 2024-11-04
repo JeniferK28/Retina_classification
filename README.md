@@ -1,4 +1,4 @@
-# Retina_classification
+# Retina Disease Classification
 
 ## Requirements
 Python 3 
